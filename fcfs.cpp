@@ -62,8 +62,8 @@ public:
             wt+=x;
         for(int x: turn)
             ta+=x;
-        cout<<"Avg waiting time="<<wt/n<<endl;
-        cout<<"Avg turn around time="<<ta/n<<endl;
+        cout<<"Avg waiting time="<<(float)wt/(float)n<<endl;
+        cout<<"Avg turn around time="<<(float)ta/(float)n<<endl;
     }
     void printDetails()
     {
